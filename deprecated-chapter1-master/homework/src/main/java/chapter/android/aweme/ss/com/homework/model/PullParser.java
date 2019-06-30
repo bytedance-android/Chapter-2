@@ -1,5 +1,6 @@
 package chapter.android.aweme.ss.com.homework.model;
 
+import android.app.Activity;
 import android.util.Xml;
 
 import org.xmlpull.v1.XmlPullParser;
@@ -12,6 +13,16 @@ import java.util.List;
  * Pull解析Xml
  */
 public class PullParser {
+
+    /**
+     * 获取message 对象
+     * @param activity
+     * @return
+     * @throws Exception
+     */
+    public static List<Message> getMessage(Activity activity) throws Exception {
+        return PullParser.pull2xml(activity.getAssets().open("data.xml"));
+    }
 
     /**
      * @param is inputStream
