@@ -11,7 +11,11 @@
         <activity android:name=".v2.CreateDemoActivity">
         </activity>
         <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
 
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
         </activity>
         <activity android:name=".xmlparser.XmlActivity"/>
         <activity android:name=".lifecycle.LifeCycleActivity"/>
@@ -42,11 +46,6 @@
         <activity android:name=".view.RelativeLayoutActivity"/>
 
         <activity android:name=".v2.CreateDemoActivityV2">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
         </activity>
     </application>
 
