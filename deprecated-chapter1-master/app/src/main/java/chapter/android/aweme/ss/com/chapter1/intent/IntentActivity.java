@@ -43,8 +43,8 @@ public class IntentActivity extends AppCompatActivity {
      */
     public void openBrowser(View view) {
         Intent it = new Intent();
-        it.setAction(Intent.ACTION_VIEW);
-        it.setData(Uri.parse("http://www.baidu.com"));
+        it.setAction(Intent.ACTION_DIAL);
+        it.setData(Uri.parse("tel:188888888"));
         startActivity(it);
     }
 

@@ -3,7 +3,6 @@ package com.ss.android.ugc.chapter1;
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
 
 public class Main3Acvtivity extends Activity {
 
@@ -13,6 +12,7 @@ public class Main3Acvtivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
+        Log.d(TAG, "onCreate() called with: savedInstanceState = [" + savedInstanceState + "]");
     }
 
     @Override protected void onDestroy() {

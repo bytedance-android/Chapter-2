@@ -1,6 +1,7 @@
 package com.ss.android.ugc.chapter1;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -24,6 +25,8 @@ public class MainActivity extends Activity {
                 Toast.makeText(MainActivity.this, "点击了第：" + position, Toast.LENGTH_LONG).show();
             }
         });
+        int position = getIntent().getIntExtra("position", 1000);
+        Toast.makeText(MainActivity.this, "数据传输：" + position, Toast.LENGTH_LONG).show();
     }
 
     @Override protected void onStart() {
@@ -48,5 +51,10 @@ public class MainActivity extends Activity {
 
     @Override protected void onRestart() {
         super.onRestart();
+    }
+
+    @Override protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        
     }
 }
