@@ -13,12 +13,6 @@ public class Main3Acvtivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
-
-        findViewById(R.id.txt_intent).setOnClickListener(new View.OnClickListener() {
-            @Override public void onClick(View v) {
-                Main3Acvtivity.this.finish();
-            }
-        });
     }
 
     @Override protected void onDestroy() {
