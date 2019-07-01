@@ -9,16 +9,35 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".OpenedIntentActivity">
-        </activity>
-        <activity android:name=".IntentActivity">
-        </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".RelativeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+        </activity>
+        <activity android:name=".Main4Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main3Acvtivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".OpenedIntentActivity"/>
+        <activity android:name=".IntentActivity">
+        </activity>
+        <activity android:name=".MainActivity">
         </activity>
     </application>
 

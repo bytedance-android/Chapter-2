@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+    <ImageView
+        android:id="@+id/img_icon"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="1"
+        android:background="@drawable/session_robot"/>
+
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:lines="4"
+        android:text="今日头条今日头条今日头条今日头条今日头条今日头日头条今日头条今日头条今日头条日头条今日头条今日头条今日头条条今日头条今日头条今日头条今日头条今日头条日头条今日头条今日头条今日头条"
+        android:textColor="@color/blue"
+        android:textSize="20dp"
+    />
+
+    <TextView
+        android:id="@+id/txt_click"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_weight="1"
+        android:background="#ff0000"
+        android:gravity="center"
+        android:text="周一"
+        android:textSize="30sp"
+    />
+</LinearLayout>

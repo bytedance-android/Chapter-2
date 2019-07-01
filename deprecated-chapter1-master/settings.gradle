@@ -1,1 +1,1 @@
-include ':app', ':homework', ':kotlin_homework', ':chapter1'
+include ':app', ':homework', ':kotlin_homework', ':chapter1', ':myapplication'
