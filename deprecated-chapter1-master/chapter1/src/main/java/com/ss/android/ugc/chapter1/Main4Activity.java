@@ -1,6 +1,6 @@
 package com.ss.android.ugc.chapter1;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -21,7 +21,7 @@ import android.widget.Toast;
  * android:textSize="20dp"
  * />
  */
-public class Main4Activity extends AppCompatActivity {
+public class Main4Activity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

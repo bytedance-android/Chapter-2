@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#334455"
+    android:layout_height="match_parent"
+    tools:context=".RelativlayoutActivity">
+
+
+    <TextView
+        android:id="@+id/txt_tv1"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Helloworld"
+        android:layout_centerInParent="true"
+        android:textSize="36sp">
+
+
+    </TextView>
+
+    <TextView
+        android:layout_alignBaseline="@id/txt_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/txt_tv1"
+        android:text="       Helloworld"
+        android:textSize="30sp"/>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        tools:src="@tools:sample/avatars"/>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="TextView"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="Button"/>
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        tools:src="@tools:sample/avatars"/>
+
+</RelativeLayout>

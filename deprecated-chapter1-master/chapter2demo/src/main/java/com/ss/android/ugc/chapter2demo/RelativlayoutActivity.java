@@ -1,14 +1,13 @@
-package com.ss.android.ugc.chapter1;
+package com.ss.android.ugc.chapter2demo;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 
-public class Main2Activity extends Activity {
+public class RelativlayoutActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_relativlayout);
     }
 }

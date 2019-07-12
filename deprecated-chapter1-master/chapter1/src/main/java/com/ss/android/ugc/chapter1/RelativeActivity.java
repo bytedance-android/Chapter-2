@@ -1,10 +1,10 @@
 package com.ss.android.ugc.chapter1;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class RelativeActivity extends AppCompatActivity {
+public class RelativeActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

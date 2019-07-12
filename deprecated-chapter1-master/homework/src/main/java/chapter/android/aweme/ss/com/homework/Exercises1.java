@@ -7,6 +7,8 @@ import android.support.v7.app.AppCompatActivity;
 /**
  * 作业1：
  * 打印出Activity屏幕切换 Activity会执行什么生命周期？
+ *
+ * oncreate ons
  */
 public class Exercises1 extends AppCompatActivity {
 
