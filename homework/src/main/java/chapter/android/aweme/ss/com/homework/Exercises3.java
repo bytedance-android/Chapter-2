@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 
 /**
  * 大作业:实现一个抖音消息页面,
- * 所需的data数据放在assets下面的data.xml这里，使用PullParser这个工具类进行xml解析即可
+ * 1、所需的data数据放在assets下面的data.xml这里，使用PullParser这个工具类进行xml解析即可
  * <p>如何读取assets目录下的资源，可以参考如下代码</p>
  * <pre class="prettyprint">
  *
@@ -26,8 +26,9 @@ import android.support.v7.app.AppCompatActivity;
  *         }
  *     }
  * </pre>
- * 所需UI资源已放在res下面
+ * 2、所需UI资源已放在res/drawable-xxhdpi下面
  *
+ * 3、作业中的会用到圆形的ImageView,可以参考 widget/CircleImageView.java
  */
 public class Exercises3 extends AppCompatActivity {
 
