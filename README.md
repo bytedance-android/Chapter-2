@@ -1,4 +1,4 @@
-# chapter2
+# Chapter2
 Android基础UI开发
 
 * app:课堂代码
