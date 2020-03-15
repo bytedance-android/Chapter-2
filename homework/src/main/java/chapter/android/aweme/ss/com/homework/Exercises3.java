@@ -5,7 +5,29 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
 /**
- * 大作业:实现一个抖音消息页面,所需资源已放在res下面
+ * 大作业:实现一个抖音消息页面,
+ * 所需的data数据放在assets下面的data.xml这里，使用PullParser这个工具类进行xml解析即可
+ * <p>如何读取assets目录下的资源，可以参考如下代码</p>
+ * <pre class="prettyprint">
+ *
+ *         @Override
+ *     protected void onCreate(@Nullable Bundle savedInstanceState) {
+ *         super.onCreate(savedInstanceState);
+ *         setContentView(R.layout.activity_xml);
+ *         //load data from assets/data.xml
+ *         try {
+ *             InputStream assetInput = getAssets().open("data.xml");
+ *             List<Message> messages = PullParser.pull2xml(assetInput);
+ *             for (Message message : messages) {
+ *
+ *             }
+ *         } catch (Exception exception) {
+ *             exception.printStackTrace();
+ *         }
+ *     }
+ * </pre>
+ * 所需UI资源已放在res下面
+ *
  */
 public class Exercises3 extends AppCompatActivity {
 

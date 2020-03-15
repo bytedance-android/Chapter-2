@@ -6,11 +6,11 @@ package chapter.android.aweme.ss.com.homework.model;
  */
 public class Message {
 
-    private boolean isOfficial;
-    private String title;
-    private String time;
-    private String description;
-    private String icon;
+    private boolean isOfficial;//是否官方
+    private String title;//title
+    private String time;//时间
+    private String description;//描述
+    private String icon;//icon
 
     public String getTitle() {
         return title;
