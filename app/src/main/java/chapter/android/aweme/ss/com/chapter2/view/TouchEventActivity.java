@@ -1,4 +1,4 @@
-package chapter.android.aweme.ss.com.chapter1.view;
+package chapter.android.aweme.ss.com.chapter2.view;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

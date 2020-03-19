@@ -1,4 +1,4 @@
-package chapter.android.aweme.ss.com.chapter1.xmlparser;
+package chapter.android.aweme.ss.com.chapter2.xmlparser;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

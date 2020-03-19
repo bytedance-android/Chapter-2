@@ -1,4 +1,4 @@
-package chapter.android.aweme.ss.com.chapter1.listview;
+package chapter.android.aweme.ss.com.chapter2.listview;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

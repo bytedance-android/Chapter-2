@@ -1,16 +1,17 @@
-package chapter.android.aweme.ss.com.chapter1;
+package chapter.android.aweme.ss.com.chapter2;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import chapter.android.aweme.ss.com.chapter1.intent.IntentActivity;
-import chapter.android.aweme.ss.com.chapter1.lifecycle.LifeCycleActivity;
-import chapter.android.aweme.ss.com.chapter1.listview.ListViewActivity;
-import chapter.android.aweme.ss.com.chapter1.recycleview.RecycleViewActivity;
-import chapter.android.aweme.ss.com.chapter1.view.CommonViewActivity;
-import chapter.android.aweme.ss.com.chapter1.xmlparser.XmlActivity;
+import chapter.android.aweme.ss.com.chapter1.R;
+import chapter.android.aweme.ss.com.chapter2.intent.IntentActivity;
+import chapter.android.aweme.ss.com.chapter2.lifecycle.LifeCycleActivity;
+import chapter.android.aweme.ss.com.chapter2.listview.ListViewActivity;
+import chapter.android.aweme.ss.com.chapter2.recycleview.RecycleViewActivity;
+import chapter.android.aweme.ss.com.chapter2.view.CommonViewActivity;
+import chapter.android.aweme.ss.com.chapter2.xmlparser.XmlActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 

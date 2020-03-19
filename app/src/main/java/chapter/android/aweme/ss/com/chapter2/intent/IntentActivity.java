@@ -1,4 +1,4 @@
-package chapter.android.aweme.ss.com.chapter1.intent;
+package chapter.android.aweme.ss.com.chapter2.intent;
 
 import android.content.Intent;
 import android.database.Cursor;

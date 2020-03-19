@@ -1,18 +1,15 @@
-package chapter.android.aweme.ss.com.chapter1.recycleview;
+package chapter.android.aweme.ss.com.chapter2.recycleview;
 
 
 import android.content.Context;
-import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.LinearLayout;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import chapter.android.aweme.ss.com.chapter1.R;
-import chapter.android.aweme.ss.com.chapter1.xmlparser.Message;
+import chapter.android.aweme.ss.com.chapter2.xmlparser.Message;
 
 /**
  *

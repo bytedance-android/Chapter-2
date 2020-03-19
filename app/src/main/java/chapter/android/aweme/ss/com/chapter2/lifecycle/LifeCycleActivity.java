@@ -1,4 +1,4 @@
-package chapter.android.aweme.ss.com.chapter1.lifecycle;
+package chapter.android.aweme.ss.com.chapter2.lifecycle;
 
 import android.content.Intent;
 import android.os.Bundle;

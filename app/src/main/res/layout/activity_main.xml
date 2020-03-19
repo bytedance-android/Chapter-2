@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context="chapter.android.aweme.ss.com.chapter2.MainActivity">
 
     <Button
         android:id="@+id/btn_xml"

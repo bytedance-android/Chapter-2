@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     android:foreground="@drawable/icon_micro_game_comment"
     android:foregroundGravity="right|bottom"
-    tools:context=".MainActivity">
+    tools:context="chapter.android.aweme.ss.com.chapter2.MainActivity">
 
     <TextView
         android:layout_width="400dp"
